@@ -58,6 +58,16 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
+To test your endpoints
+
+```bash
+# POST audio transcode
+$ curl -X POST -d '{}' -H "Content-Type: application/json" localhost:3000/audio/transcode
+
+# POST audio transcode-flow
+$ curl -X POST -d '{}' -H "Content-Type: application/json" localhost:3000/audio/transcode-flow
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).

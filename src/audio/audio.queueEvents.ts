@@ -1,6 +1,5 @@
 import { QueueEventsListener, QueueEventsHost, OnQueueEvent } from '@taskforcesh/nestjs-bullmq-pro';
 import { Logger } from '@nestjs/common';
-import { JobPro } from '@taskforcesh/bullmq-pro';
 
 @QueueEventsListener('audio')
 export class AudioQueueEvents extends QueueEventsHost {
