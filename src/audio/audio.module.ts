@@ -9,6 +9,9 @@ import { AudioProcessor } from './audio.processor';
     BullModule.registerQueue({
       name: 'audio',
     }),
+    BullModule.registerFlowProducer({
+      name: 'audioFlowProducer',
+    }),
   ],
   controllers: [AudioController],
   providers: [AudioQueueEvents, AudioProcessor],
