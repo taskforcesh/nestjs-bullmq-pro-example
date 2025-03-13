@@ -25,8 +25,8 @@
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
-    "@taskforcesh/bullmq-pro": "^7.17.2",
-    "@taskforcesh/nestjs-bullmq-pro": "^3.0.0",
+    "@taskforcesh/bullmq-pro": "^7.32.1",
+    "@taskforcesh/nestjs-bullmq-pro": "^3.1.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
   },
